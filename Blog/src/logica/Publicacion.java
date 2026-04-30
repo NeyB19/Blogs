@@ -1,5 +1,6 @@
 package logica;
 
+import java.util.List;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
@@ -10,7 +11,7 @@ public class Publicacion {
     private LocalDateTime fechaPublicacion;
     private int codigo;
     private String texto;
-    private ArrayList<Comentario> comentarios;
+    private List<Comentario> comentarios;
 
     public Publicacion(String titulo, String texto, String nombreCreador) {
         codigo = consecutivo++;
@@ -54,10 +55,6 @@ public class Publicacion {
 		return texto;
 	}
 
-	public ArrayList<Comentario> getComentarios() {
-		return comentarios;
-	}
-	
 
     public String toString() {
         String resultado = "\nCódigo Publicación: " + codigo +
