@@ -22,6 +22,13 @@ public class Controladora {
             agregarComentario(1, 0, "ana12l@gmail.com", "192.168.0.1", "Me encantan los Goldens");
             agregarComentario(1, 0, "andyb@gmail.com", "192.168.0.2", "Son los mejores perros");
 
+
+            crearPublicacion(2, "Las Rosas", "Requieren sol y poda constante.", "Jardinero");
+            crearPublicacion(2, "Girasoles", "Siguen la luz del sol.", "Florista");
+
+            agregarComentario(2, 2, "enriquevldez@gmail.com", "10.0.0.1", "Que hermosas son las rosas!");
+            agregarComentario(2, 2, "lupe099@gmail.com", "10.0.0.2", "Que interesante.");           
+            
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
