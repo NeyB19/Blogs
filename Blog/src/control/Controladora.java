@@ -22,12 +22,17 @@ public class Controladora {
             agregarComentario(1, 0, "ana12l@gmail.com", "192.168.0.1", "Me encantan los Goldens");
             agregarComentario(1, 0, "andyb@gmail.com", "192.168.0.2", "Son los mejores perros");
 
+            agregarComentario(1, 1, "lucasmartin@gmail.com", "192.168.0.3", "Es vital la higiene");
+            agregarComentario(1, 1, "neyblear@gmail.com", "192.168.0.4", "Buen consejo médico");            
 
             crearPublicacion(2, "Las Rosas", "Requieren sol y poda constante.", "Jardinero");
             crearPublicacion(2, "Girasoles", "Siguen la luz del sol.", "Florista");
 
             agregarComentario(2, 2, "enriquevldez@gmail.com", "10.0.0.1", "Que hermosas son las rosas!");
-            agregarComentario(2, 2, "lupe099@gmail.com", "10.0.0.2", "Que interesante.");           
+            agregarComentario(2, 2, "lupe099@gmail.com", "10.0.0.2", "Que interesante.");  
+            
+            agregarComentario(2, 3, "luciacos1@gmail.com", "10.0.0.3", "Me encantan sus colores");
+            agregarComentario(2, 3, "paola242@gmail.com", "10.0.0.4", "Dan mucha vida al jardín");  
             
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
